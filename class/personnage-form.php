@@ -22,7 +22,7 @@ class personnage
     public $vie;
     public $soin;
     
-    public function __construct($nom, $forceBrut, $forceMagique)
+    public function __construct($nom, $forceBrut, $forceMagique, $armure, $vie, $soin)
     {
      $this->nom = $nom; 
      $this->forceBrut = $forceBrut; 

@@ -7,7 +7,7 @@ print("<center>Bonjour $perso1 </center>"); */
 require 'class/personnage-form.php';
 
 
-$perso1= new personnage($_GET['nomPerso1'], $_GET['forceBrut'], $_GET['forceMagique'] );
+$perso1= new personnage($_GET['nomPerso1'], $_GET['forceBrut'], $_GET['forceMagique'], $_GET['armure'], $_GET['soin'], $_GET['vie'] );
 
 $perso1->__decrire();
 

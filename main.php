@@ -1,7 +1,7 @@
 <?php
 
 
-require 'class/personnage2.php';
+require 'class/personnage.php';
 
 $georges = new personnage('georges');
 $lucas = new personnage('lucas');
